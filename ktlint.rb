@@ -1,8 +1,8 @@
 class Ktlint < Formula
   desc "Kotlin linter"
   homepage "https://github.com/shyiko/ktlint"
-  url "https://github.com/shyiko/ktlint/releases/download/0.5.1/ktlint", :using => :nounzip
-  sha256 "4d775e3acbdfd5176dcc8c583649e5a3587d8760d18ee6b62defa3c37628e30a"
+  url "https://github.com/shyiko/ktlint/releases/download/0.6.0/ktlint", :using => :nounzip
+  sha256 "138f4c7311949c9a0300efa10b85d28240984d06b36ba57b10e7e510213d84e6"
   def install
     bin.install "ktlint"
   end
